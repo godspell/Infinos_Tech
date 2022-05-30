@@ -1,0 +1,82 @@
+.products h1 {
+  font-weight: 600;
+}
+
+.product-specification {
+  border-radius: 20px;
+}
+
+.product-specification:hover {
+  background-color: #f8f8f8;
+}
+
+.product-main img {
+  border-radius: 20px;
+}
+
+.products .shop-now {
+  background-color: #21b3f1;
+}
+
+.products .btn-shop-now {
+  border: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5rem 1.3rem;
+  border-radius: 30px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.products .btn-shop-now:hover {
+  background-color: white;
+  color: #21b3f1;
+}
+
+.product-features img {
+  width: 60px;
+  color: #21b3f1;
+}
+
+.pro-description h6 {
+  margin-bottom: -5px;
+}
+
+.pro-description span {
+  font-size: 3.5rem;
+}
+
+.btn-view {
+  border: 1px solid lightgrey;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5rem 1.3rem;
+  font-size: 0.8rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-view:hover {
+  background-color: #21b3f1;
+  color: white;
+}
+
+.product-video video {
+  width: 100%;
+}
+
+.product-details img {
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .product-drone img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1090px) {
+  .feature {
+    flex-direction: column;
+  }
+}

@@ -67,7 +67,9 @@
 
 .product-details img {
   margin: auto;
+  width: 600px;
 }
+
 
 @media (max-width: 800px) {
   .product-drone img {

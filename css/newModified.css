@@ -104,3 +104,12 @@
       padding-bottom: 25%;
     }
   }
+
+  .product-main{
+    display: flex;
+    justify-content: center;  
+  }
+
+  .product-main img{
+     margin: 0px 60px; 
+  }

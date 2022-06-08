@@ -113,3 +113,14 @@
   .product-main img{
      margin: 0px 60px; 
   }
+
+   @media only screen and (max-width : 750px){
+     .product-main{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+     }
+     .product1 img{
+       margin: 30px 0px;
+     }
+   }

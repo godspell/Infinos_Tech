@@ -112,6 +112,12 @@
 
   .product-main img{
      margin: 0px 60px; 
+     border: 2px solid lightblue;
+  }
+
+  .product-main h4{
+    margin-top: 10px;
+    text-align: center;
   }
 
    @media only screen and (max-width : 750px){

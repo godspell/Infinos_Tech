@@ -112,7 +112,6 @@
 
   .product-main img{
      margin: 0px 60px; 
-     /* border: 2px solid lightblue; */
   }
 
   .product-main h4{
@@ -128,9 +127,5 @@
      }
      .product1 img{
        margin: 30px 0px;
-     }
-
-     #infinos-logo{
-      display: none;
      }
    }

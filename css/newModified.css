@@ -80,6 +80,10 @@
   section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .titleBox {
     margin-bottom: 0;
   }
+
+  #pro_video{
+    margin-top: 80px;
+  }
   @media only screen and (max-width : 480px) {
     .box {
       width: 100%;
@@ -119,6 +123,12 @@
     text-align: center;
   }
 
+  .product1{
+    /* border: 2px solid lightblue;
+    border-radius: 15px; */
+    margin: 50px;
+  }
+
    @media only screen and (max-width : 750px){
      .product-main{
        display: flex;
@@ -127,5 +137,10 @@
      }
      .product1 img{
        margin: 30px 0px;
+       margin-top: 0px;
+     }
+
+     #infinos-logo{
+      display: none;
      }
    }

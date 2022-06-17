@@ -75,6 +75,7 @@
 }
 .product-video video {
   width: 100%;
+  margin-top: 80px;
 }
 
 .product-details {
@@ -90,6 +91,9 @@
   .product-drone img {
     width: 100%;
   }
+  .product-video{
+    margin-top: 150px;
+  }
 }
 
 @media (max-width: 1090px) {
@@ -100,13 +104,16 @@
 
 @media (max-width: 766px){
   .product-video{
-    margin-top: 144px;
+    margin-top: 150px;
   }
 }
 
 @media (max-width: 500px){
   .product h1{
     font-size: 1.9rem;
+  }
+  .product-video{
+    margin-top: 150px;
   }
 
   .product-description .descp{

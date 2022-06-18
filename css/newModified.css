@@ -111,9 +111,11 @@
     justify-content: center;  
   }
 
-  .product-main img{
-     margin: 0px 60px; 
-  }
+
+.product-main img {
+  object-fit: fill;
+  border-radius: 20px;
+}
 
   .product-main h4{
     margin-top: 10px;

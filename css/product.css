@@ -83,6 +83,11 @@
   width: 600px;
 }
 
+ #book-now{
+    border-radius: 6px;
+    /* margin: 60px 0px; */
+   }
+
 @media (max-width: 800px) {
   .product-drone img {
     width: 100%;

@@ -60,6 +60,45 @@ section .line {
   align-items: center;
 }
 
+/* pre-order-book-demo */
+.pre-order-book-demo {
+  height: 7rem;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.pre-order-book-demo a {
+  color: white !important;
+}
+
+.pre-order-book-demo .pre-order {
+  flex-grow: 1;
+  background-color: #0096c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pre-order-book-demo .pre-order:hover {
+  flex-grow: 4;
+}
+
+.pre-order-book-demo .book-demo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pre-order-book-demo .book-demo:hover {
+  flex-grow: 4;
+}
+
 /* Endoursements */
 
 .endorsements b {
@@ -69,6 +108,48 @@ section .line {
 .endorsements h5 {
   font-weight: 600;
   color: #c81010;
+}
+
+/* FOLLOW US ON */
+
+#follow-us {
+  padding: 40px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#follow-us h3 {
+  color: black;
+  font-weight: 700;
+}
+
+#follow-us a {
+  text-decoration: none;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+#follow-us .icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#follow-us .icons .jd {
+  font-weight: 800;
+}
+
+@media (max-width: 772px) {
+  #follow-us {
+    flex-direction: column;
+  }
 }
 
 /* Footer */
@@ -92,12 +173,6 @@ section .line {
   text-transform: uppercase;
 }
 
-/* .footer .footer-content .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  color: var(--color-white);
-} */
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: 600;
